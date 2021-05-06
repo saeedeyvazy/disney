@@ -1,15 +1,22 @@
 import React from 'react'
 import styled from 'styled-components'
+import ImgSlider from '../../components/ImgSlider'
 import { images } from '../../constants/images'
 
 function Home() {
-	return <Container></Container>
+	return (
+		<Container>
+			<ImgSlider />
+		</Container>
+	)
 }
 
 const Container = styled.main`
 	min-height: calc(100vh - 70px);
 	padding: 0 calc(3.5vw + 5px);
 	position: relative;
+	overflow: hidden;
+
 	&:before {
 		content: '';
 		background-image: url(${images.homeBG});
