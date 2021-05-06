@@ -1,12 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import ImgSlider from '../../components/ImgSlider'
+import Viewer from '../../components/Viewer'
 import { images } from '../../constants/images'
 
 function Home() {
 	return (
 		<Container>
 			<ImgSlider />
+			<Viewer />
 		</Container>
 	)
 }
