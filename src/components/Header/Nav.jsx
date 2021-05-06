@@ -25,6 +25,7 @@ const MenuItem = styled.a`
 			background-color: white;
 			position: absolute;
 			left: 0;
+			opacity: 0;
 			right: 0;
 			bottom: -6px;
 			transform: scaleX(0);
@@ -34,6 +35,7 @@ const MenuItem = styled.a`
 
 		&:hover:after {
 			transform: scaleX(1);
+			opacity: 1;
 		}
 	}
 `
