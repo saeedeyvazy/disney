@@ -7,6 +7,7 @@ const Container = styled.nav`
 	align-items: center;
 	flex: 1;
 	margin-left: 25px;
+	overflow-x: hidden;
 `
 
 const MenuItem = styled.a`
