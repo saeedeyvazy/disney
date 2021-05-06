@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import bg from '../../assets/images/home-background.png'
+import { images } from '../../constants/images'
 
 function Home() {
-	return <Container>Hello</Container>
+	return <Container></Container>
 }
 
 const Container = styled.main`
@@ -12,7 +12,7 @@ const Container = styled.main`
 	position: relative;
 	&:before {
 		content: '';
-		background-image: url(${bg});
+		background-image: url(${images.homeBG});
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
