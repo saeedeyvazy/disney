@@ -40,6 +40,7 @@ const Button = styled.button`
 const TopWrapper = styled.div`
 	padding: 0 20px;
 	max-width: 650px;
+	text-align: center;
 	img {
 		width: 100%;
 	}
@@ -59,9 +60,8 @@ const Container = styled.main`
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	display: grid;
+	place-items: center;
 `
 
 export default Login
