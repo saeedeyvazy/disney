@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import ImgSlider from '../../components/ImgSlider'
+import Movies from '../../components/Movies'
 import Viewer from '../../components/Viewer'
 import { images } from '../../constants/images'
 
@@ -9,6 +10,15 @@ function Home() {
 		<Container>
 			<ImgSlider />
 			<Viewer />
+			<Movies
+				title='Recommended For You'
+				imgList={[
+					images.slider2,
+					images.slider1,
+					images.slider3,
+					images.slider4,
+				]}
+			/>
 		</Container>
 	)
 }
