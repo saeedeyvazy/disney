@@ -23,6 +23,8 @@ const Container = styled.div`
 `
 
 const Item = styled.div`
+	box-shadow: rgba(0 0 0 / 69%) 0 26px 30px -10px,
+		rgba(0 0 0 /73%) 0 16px 10px -10px;
 	cursor: pointer;
 	margin: 5px 0;
 	border: 2px solid rgba(249, 249, 249, 0.1);
@@ -37,6 +39,7 @@ const Item = styled.div`
 	transition-duration: 500ms;
 	&:hover {
 		border: 2px solid rgba(249, 249, 249, 0.5);
+		transform: scale(1.05);
 	}
 `
 
