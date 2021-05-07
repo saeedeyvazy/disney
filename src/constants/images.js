@@ -16,6 +16,8 @@ import view4 from '../assets/images/viewers-pixar.png'
 import view5 from '../assets/images/viewers-starwars.png'
 import bplay from '../assets/images/play-icon-black.png'
 import wplay from '../assets/images/play-icon-white.png'
+import originalIcon from '../assets/images/original-icon.svg'
+import loginBg from '../assets/images/login-background.jpg'
 
 const userImage =
 	'https://lh3.googleusercontent.com/ogw/ADGmqu89bUiwVnBoQjLAggTB_jlB6zxMadA41zbsyL0K=s83-c-mo'
@@ -26,6 +28,7 @@ export const images = {
 	searchIcon,
 	seriesIcon,
 	movieIcon,
+	originalIcon,
 	userImage,
 	homeBG,
 	slider1,
@@ -39,4 +42,5 @@ export const images = {
 	view5,
 	bplay,
 	wplay,
+	loginBg,
 }

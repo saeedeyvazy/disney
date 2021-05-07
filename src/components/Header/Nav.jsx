@@ -67,6 +67,10 @@ function Nav() {
 				<MenuItemImg src={images.movieIcon} />
 				<span>movies</span>
 			</MenuItem>
+			<MenuItem>
+				<MenuItemImg src={images.originalIcon} />
+				<span>originals</span>
+			</MenuItem>
 		</Container>
 	)
 }
