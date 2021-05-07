@@ -44,6 +44,7 @@ const MovieDesc = styled.div`
 	font-size: 20px;
 	padding: 16px 0px;
 	color: rgb(249, 249, 249);
+	max-width: 874px;
 `
 const Controls = styled.div`
 	display: flex;
