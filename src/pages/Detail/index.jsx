@@ -64,6 +64,12 @@ const Button = styled.button`
 	padding: 0 24px;
 	letter-spacing: 1.8px;
 	cursor: pointer;
+	transition-duration: 200ms;
+	box-shadow: none;
+	border: 2px solid rgba(249, 249, 249, 0.7);
+	&:hover {
+		opacity: 0.8;
+	}
 	img {
 		width: 32px;
 	}
