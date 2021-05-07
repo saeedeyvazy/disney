@@ -22,7 +22,7 @@ const MenuItem = styled.a`
 		position: relative;
 		&:after {
 			content: '';
-			height: 2px;
+			height: 5px;
 			background-color: white;
 			position: absolute;
 			left: 0;
