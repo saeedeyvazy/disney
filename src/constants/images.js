@@ -18,6 +18,8 @@ import bplay from '../assets/images/play-icon-black.png'
 import wplay from '../assets/images/play-icon-white.png'
 import originalIcon from '../assets/images/original-icon.svg'
 import loginBg from '../assets/images/login-background.jpg'
+import ctaLogoOne from '../assets/images/cta-logo-one.svg'
+import ctaLogoTwo from '../assets/images/cta-logo-two.png'
 
 const userImage =
 	'https://lh3.googleusercontent.com/ogw/ADGmqu89bUiwVnBoQjLAggTB_jlB6zxMadA41zbsyL0K=s83-c-mo'
@@ -43,4 +45,6 @@ export const images = {
 	bplay,
 	wplay,
 	loginBg,
+	ctaLogoOne,
+	ctaLogoTwo,
 }
